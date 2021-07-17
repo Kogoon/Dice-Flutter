@@ -7,13 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.red,
-        appBar: AppBar(
-          title: Text('Diceeee'),
-          centerTitle: true,
-          backgroundColor: Colors.red,
-        ),
         body: DicePage(),
       ),
     );
